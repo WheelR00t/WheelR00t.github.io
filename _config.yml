@@ -13,7 +13,7 @@ baseurl:          "wheelr00t.github.io"
 
 author:
   name:           WheelRoot - Antoine GARCIA
-  url:            
+  url:            https://wheelr00t.github.io/
 
 paginate:         5
 # paginate_path:    '/page:num'
