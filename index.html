@@ -1,37 +1,27 @@
 ---
 layout: default
-title: Home
+title: Accueil
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url | remove_first: '/'}}">
-        {{ post.title }}
-      </a>
-    </h1>
+# Portfolio Cybersécurité
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+## À propos de moi
+Étudiant en Bachelor 1 Cybersécurité, passionné par la sécurité informatique et les technologies de l'information.
 
-    {{ post.content }}
-  </div>
-  {% endfor %}
+## Mes compétences
+- Systèmes d'exploitation (Windows, Linux)
+- Réseaux et protocoles
+- Bases en programmation (Python, Bash)
+- Introduction à la sécurité informatique
+- Cryptographie de base
+
+## Badges et certifications
+
+<div style="text-align: center; margin: 20px 0;">
+  <a href="https://tryhackme.com/p/VOTREUSERNAME" target="_blank">
+    <img src="https://tryhackme-badges.s3.amazonaws.com/VOTREUSERNAME.png" alt="TryHackMe Badge">
+  </a>
 </div>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+## Projets et Write-ups
+Consultez mes projets et analyses dans la section Blog.
