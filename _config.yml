@@ -6,8 +6,8 @@ highlighter:      rouge
 title:            WheelRoot - Antoine GARCIA
 tagline:          Black Theme for Jekyll
 description:      "Portfolio professionnel - Bachelor 1 Cybersécurité"
-url:              https://github.com/karloespiritu/BlackDoc/
-baseurl:          "/BlackDoc/"
+url:              https://https://wheelr00t.github.io/
+baseurl:          ""
                   # the optional subpath of your site, e.g. "/my-jekyll-site/"
                   # This will apply to all pages in your Jekyll site.
 
